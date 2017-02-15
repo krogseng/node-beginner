@@ -1,24 +1,27 @@
 {
-    "name": "node-beginner",
-    "version": "1.0.0",
-    "description": "Lab assignments working through node-beginner book.",
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/krogseng/node-beginner.git"
-    },
-    "keywords": [
-        "lab",
-        "node-beginner",
-        "javascript"
-    ],
-    "author": "Lynn Krogseng",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/krogseng/node-beginner/issues"
-    },
-    "homepage": "https://github.com/krogseng/node-beginner#readme"
+  "name": "node-beginner",
+  "version": "1.0.0",
+  "description": "Lab assignments working through node-beginner book.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krogseng/node-beginner.git"
+  },
+  "keywords": [
+    "lab",
+    "node-beginner",
+    "javascript"
+  ],
+  "author": "Lynn Krogseng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krogseng/node-beginner/issues"
+  },
+  "homepage": "https://github.com/krogseng/node-beginner#readme",
+  "dependencies": {
+    "formidable": "^1.1.1"
+  }
 }
